@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 
 
-public class Client_4_1 {
+public class Client4_1 {
     public static void main(String argv[]) throws Exception {
         // 1. Le client crée une socket UDP (port choisi par le système)
         DatagramSocket socket = new DatagramSocket();

@@ -8,7 +8,7 @@ import java.net.InetSocketAddress;
  * Le serveur écoute sur le port 1234 et affiche chaque message reçu
  * avec l'adresse (IP et port) de l'expéditeur.
  */
-class ServeurUDP {
+public class Server4_1 {
     static byte buffer[] = new byte[1024];
 
     public static void main(String argv[]) throws Exception {
